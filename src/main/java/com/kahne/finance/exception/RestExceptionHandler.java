@@ -4,8 +4,8 @@
  */
 package com.kahne.finance.exception;
 
-import com.kahne.finance.component.constant.CommonMessage;
 import com.kahne.finance.component.response.GenericResponse;
+import com.kahne.finance.constant.CommonMessage;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
