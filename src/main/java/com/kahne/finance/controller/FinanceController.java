@@ -4,7 +4,7 @@
  */
 package com.kahne.finance.controller;
 
-import com.kahne.finance.component.constant.CommonMessage;
+import com.kahne.finance.constant.CommonMessage;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
