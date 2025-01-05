@@ -5,9 +5,9 @@
 package com.kahne.finance.repo;
 
 import com.kahne.finance.entity.DMessage;
-import org.springframework.data.jpa.repository.JpaRepository;
+import com.kahne.finance.repo.base.BaseRepo;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface MessageRepo extends JpaRepository<DMessage, String> {
+public interface MessageRepo extends BaseRepo<DMessage, String> {
 }
